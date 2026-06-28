@@ -1,0 +1,87 @@
+{
+  "communities": {
+    "0": [
+      "package",
+      "package_description",
+      "package_main",
+      "package_name",
+      "package_type",
+      "package_version"
+    ],
+    "1": [
+      "server",
+      "server_app",
+      "server_db",
+      "server_dbpath",
+      "server_dirname"
+    ],
+    "2": [
+      "package_dependencies",
+      "package_dependencies_cors",
+      "package_dependencies_express",
+      "package_dependencies_sqlite3"
+    ],
+    "3": [
+      "package_scripts",
+      "package_scripts_start"
+    ]
+  },
+  "cohesion": {
+    "0": 0.3333333333333333,
+    "1": 0.4,
+    "2": 0.5,
+    "3": 1.0
+  },
+  "gods": [
+    {
+      "id": "package_scripts",
+      "label": "scripts",
+      "degree": 2
+    },
+    {
+      "id": "package_main",
+      "label": "main",
+      "degree": 1
+    },
+    {
+      "id": "package_dependencies_cors",
+      "label": "cors",
+      "degree": 1
+    },
+    {
+      "id": "package_dependencies_express",
+      "label": "express",
+      "degree": 1
+    },
+    {
+      "id": "package_dependencies_sqlite3",
+      "label": "sqlite3",
+      "degree": 1
+    },
+    {
+      "id": "server_dirname",
+      "label": "__dirname",
+      "degree": 1
+    },
+    {
+      "id": "server_dbpath",
+      "label": "dbPath",
+      "degree": 1
+    },
+    {
+      "id": "server_db",
+      "label": "db",
+      "degree": 1
+    },
+    {
+      "id": "server_app",
+      "label": "app",
+      "degree": 1
+    }
+  ],
+  "surprises": [],
+  "tokens": {
+    "input": 0,
+    "output": 0
+  }
+}
